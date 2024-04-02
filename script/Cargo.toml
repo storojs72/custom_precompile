@@ -1,0 +1,11 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "poseidon_precompile-script"
+edition = "2021"
+
+[dependencies]
+wp1-core = { git = "https://github.com/wormhole-foundation/wp1.git", branch = "artem-experiments" }
+
+[build-dependencies]
+wp1-helper = { git = "https://github.com/wormhole-foundation/wp1.git", branch = "artem-experiments" }

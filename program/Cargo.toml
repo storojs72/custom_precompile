@@ -1,0 +1,14 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "poseidon_precompile-program"
+edition = "2021"
+
+[dependencies]
+wp1-zkvm = { git = "https://github.com/wormhole-foundation/wp1.git", branch = "artem-experiments" }
+
+light-poseidon = "0.2.0"
+ark-bn254 = "0.4.0"
+ark-ff = "0.4.0"
+num-bigint = "0.4.4"
+thiserror = "1.0"
