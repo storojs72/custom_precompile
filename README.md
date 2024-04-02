@@ -1,0 +1,1 @@
+Trivial Rust program to run in SP1
